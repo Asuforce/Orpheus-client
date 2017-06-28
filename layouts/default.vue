@@ -1,9 +1,7 @@
 <template>
   <div>
     <custom-header/>
-    <div class="container">
-      <nuxt/>
-    </div>
+    <nuxt />
     <custom-footer/>
   </div>
 </template>

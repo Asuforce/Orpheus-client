@@ -1,16 +1,24 @@
 <template>
-  <header>
-    <div class="container">
-      <nav class="navbar navbar-fixed-top navbar-inverse">
-        <nuxt-link to="/" id="logo">Orpheus</nuxt-link>
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <li><nuxt-link to="/">Home</nuxt-link></li>
-            <li><nuxt-link to="/help">Help</nuxt-link></li>
-            <li>login function</li>
+  <section class="hero is-info is-large">
+    <div class="hero-head">
+      <header class="nav">
+        <div class="container">
+          <div class="nav-left">
+            <a class="nav-item">
+              Orpheus
+            </a>
+          </div>
+          <div class="nav-right nav-menu">
+            <nuxt-link to="/" class="nav-item is-active">Home</nuxt-link>
+            <nuxt-link to="/help" class="nav-item">Help</nuxt-link>
+            <span class="nav-item">
+              <a class="button is-info is-inverted">
+                <span>Login</span>
+              </a>
+            </span>
           </div>
         </div>
-      </nav>
+      </header>
     </div>
-  </header>
+  </section>
 </template>
