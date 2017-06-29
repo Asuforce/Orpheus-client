@@ -1,12 +1,12 @@
 <template>
-  <section class="hero is-info is-large">
+  <section class="hero is-dark is-large">
     <div class="hero-head">
       <header class="nav">
         <div class="container">
           <div class="nav-left">
-            <a class="nav-item">
+            <nuxt-link to="/" class="nav-item title is-1 is-spaced">
               Orpheus
-            </a>
+            </nuxt-link>
           </div>
           <div class="nav-right nav-menu">
             <nuxt-link to="/" class="nav-item is-active">Home</nuxt-link>

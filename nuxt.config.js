@@ -17,7 +17,10 @@ module.exports = {
   ** Customize the progress-bar color
   */
   loading: { color: '#3B8070' },
-  css: ['bulma/css/bulma.css'],
+  css: [
+    'bulma/css/bulma.css',
+    'font-awesome/css/font-awesome.min.css',
+  ],
   /** Build configuration
   */
   build: {
