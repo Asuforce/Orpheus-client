@@ -1,19 +1,14 @@
-<template>
-  <section class="section">
-    <div class="container">
-      <h1>All users</h1>
+<template lang="jade">
+  section.section
+    .container
+      h1 All users
 
       <!--<%= will_paginate %>-->
 
-      <ul class="users">
-        <li v-for="user in users">
-          {{ user.name }}
-        </li>
-      </ul>
+      ul
+        li(v-for="user in users") {{ user.name }}
 
       <!--<%= will_paginate %>-->
-    </div>
-  </section>
 </template>
 
 <script>
