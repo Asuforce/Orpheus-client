@@ -1,14 +1,15 @@
 <template lang="pug">
-  section.section
-    .container
-      h1 All users
+  section.hero
+    .hero-body
+      .container
+        h1.title All users
 
-      <!--<%= will_paginate %>-->
+        //- <%= will_paginate %>
 
-      ul
-        li(v-for="user in users") {{ user.name }}
+        ul
+          li(v-for="user in users") {{ user.name }}
 
-      <!--<%= will_paginate %>-->
+        //- <%= will_paginate %>
 </template>
 
 <script>

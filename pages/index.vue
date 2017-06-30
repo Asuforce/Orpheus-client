@@ -6,5 +6,5 @@
         h2.subtitle
           | Orpheus was a legendary musician, poet, and prophet in ancient Greek religion and myth.
           a(href="https://en.wikipedia.org/wiki/Orpheus") Orpheus
-        nuxt-link.button.is-large.is-light(to="/") Sign Up
+        nuxt-link.button.is-large.is-light(to="/users/new") Sign Up
 </template>
