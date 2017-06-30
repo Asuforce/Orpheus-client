@@ -1,4 +1,4 @@
-<template lang="jade">
+<template lang="pug">
   section.hero.is-dark.is-large
     .hero-head
       header.nav

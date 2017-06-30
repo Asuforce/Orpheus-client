@@ -1,4 +1,4 @@
-<template lang="jade">
+<template lang="pug">
   section.hero.is-info.is-fullheight
     .hero-body
       .container.has-text-centered
