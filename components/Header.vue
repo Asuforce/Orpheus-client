@@ -9,5 +9,5 @@
             nuxt-link.nav-item.is-active(to="/") Home
             nuxt-link.nav-item(to="/help") Help
             span.nav-item
-              nuxt-link.button.is-info.is-inverted(to="/"): span: | Login
+              nuxt-link.button.is-info.is-inverted(to="/sessions/new"): span: | Login
 </template>
